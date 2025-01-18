@@ -1,0 +1,316 @@
+body {
+    background-color: black;
+    height: 3000px;
+}
+
+.happening-container {
+    display: flex;
+    position: absolute;
+    padding: 10px;
+    top: 20px;
+    left: 600px;
+    border: 1px solid rgba(128, 128, 128, 0.397);
+    width: 600px;
+    height: 200px;
+    
+
+}
+
+.text-container {
+    margin-top: 10px;
+    width: 540px;
+}
+.new {
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+    margin-right: 5px;
+}
+
+.text-box {
+    width: 550px;
+    resize: vertical;
+    overflow: auto;
+
+    background-color: black;
+    color: white;
+    border-style: none;
+    font-family: arial;
+    font-size: 20px;
+    outline: none;
+
+}
+
+.everyone-button {
+    margin-top: 20px;
+    font-family: Helvetica;
+    font-weight: bold;
+    border-style: none;
+    background-color: black;
+    color: rgb(0, 153, 255);
+    transition: background-color 0.15s;
+    border-radius: 20px;
+    padding: 5px;
+
+}
+
+.everyone-button:hover {
+    background-color: rgba(0, 153, 255, 0.116);
+}
+
+.second-text-container {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.post {
+    margin-top: 10px;
+    background-color: rgba(255, 255, 255, 0.527);
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 10px;
+    border-style: none;
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 16px;
+    padding-left: 16px;
+    transition: background-color 0.15s;
+    
+
+}
+
+.post:hover {
+    background-color: white;
+}
+
+hr {
+    margin: 10px;
+    border: 1px solid rgba(128, 128, 128, 0.397);
+}
+
+
+/* Mihra twitter feed */
+
+.Mishra-container {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  padding: 10px;
+  top: 250px;
+  left: 600px;
+  border: 1px solid rgba(128, 128, 128, 0.397);
+  width: 600px;
+  min-height: 120px;      
+}
+
+.Mihra-container {
+  width: 45px;
+  height: auto;           
+  margin-right: 10px;     
+}
+
+.Mihra {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.Mihra-header {
+  display: flex;   
+  margin-top: -45px;     
+  margin-left: 50px;    
+  padding-bottom: 5px;    
+}
+
+.Mihra-name {
+  font-family: "Segoe UI", sans-serif;
+  font-weight: bold;
+  color: white;
+  margin-right: 10px;
+}
+
+.Mihra-handle {
+  font-family: "Segoe UI", sans-serif;
+  font-weight: 500;
+  color: grey;
+}
+
+.mihra-tweet-container {
+  margin-left: 50px;      
+  margin-top: 5px;        
+}
+
+.mihra-tweet {
+  color: white;
+  font-family: "Segoe UI", sans-serif;
+  height: 50px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.4;       
+}
+
+.tech-container {
+  object-fit: cover;
+  width: 520px;
+  margin-left: 55px;
+  border: 1px solid rgba(128, 128, 128, 0.397);
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+/* Mihra Twitter buttons */
+
+
+.Mishra-buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 48px;
+  padding: 8px;
+  max-width: 480px;
+
+      
+}
+
+.action-button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #536471;
+  font-size: 12px;
+  border: none;
+  background: none;
+  padding: 0;
+  cursor: pointer;
+  transition: all 0.2s;
+  margin-left: 40px;
+}
+
+.action-button:hover .icon {
+      background-color: rgba(29, 155, 240, 0.1);
+    }
+
+    .action-button:hover.reply {
+      color: rgb(29, 155, 240);
+    }
+
+    .action-button:hover.retweet {
+      color: rgb(0, 186, 124);
+    }
+
+    .action-button:hover.retweet .icon {
+      background-color: rgba(0, 186, 124, 0.1);
+    }
+
+    .action-button:hover.like {
+      color: rgb(249, 24, 128);
+    }
+
+    .action-button:hover.like .icon {
+      background-color: rgba(249, 24, 128, 0.1);
+    }
+
+    .icon {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 25px;
+      border-radius: 50%;
+      transition: all 0.2s;
+    }
+
+    .count {
+      min-width: 12px;
+    }
+
+    .action-button:hover.views {
+      color: rgb(29, 155, 240);
+    }
+
+    .action-button:hover.views .icon {
+      background-color: rgba(29, 155, 240, 0.1);
+    }
+
+
+    /* Elon Tweets */
+
+    .Elonmusk-container {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    padding: 10px;
+    top: 839px;
+    left: 600px;
+    border: 1px solid rgba(128, 128, 128, 0.397);
+    width: 600px;
+    min-height: 120px;
+    }
+
+    .elonmusk-container {
+        width: 45px;
+        height: auto;           
+        margin-right: 10px;     
+      }
+      
+    .elon {
+      width: 40px;
+      height: 40px;
+      object-fit: cover;
+      border-radius: 20px;
+      cursor: pointer;
+    }
+
+    .eloncoke-container {
+      margin-top: -18px;
+      object-fit: cover;
+      width: 376px;
+      margin-left: 55px;
+      border: 1px solid rgba(128, 128, 128, 0.397);
+      border-radius: 15px;
+      cursor: pointer;
+    }
+
+    /* Soli's Tweet */
+    
+    .Soli-container {
+      display: flex;
+    flex-direction: column;
+    position: absolute;
+    padding: 10px;
+    top: 1465px;
+    left: 600px;
+    border: 1px solid rgba(128, 128, 128, 0.397);
+    width: 600px;
+    min-height: 120px;
+    }
+
+    .Solin-container {
+      width: 45px;
+      height: auto;           
+      margin-right: 10px;  
+    }
+
+    .Soli {
+      width: 40px;
+      height: 40px;
+      object-fit: cover;
+      border-radius: 20px;
+      cursor: pointer;
+    }
+
+    .Unclean-container {
+      margin-top: -18px;
+      object-fit: cover;
+      width: 405px;
+      height: 535px;
+      margin-left: 55px;
+      border: 1px solid rgba(128, 128, 128, 0.397);
+      border-radius: 15px;
+      cursor: pointer;
+    }

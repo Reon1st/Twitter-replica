@@ -1,0 +1,368 @@
+
+/* Subscribe container */
+.Right-sidebar-Search-Container {
+ display: flex;
+ align-items: center;
+ position: fixed;
+ top: 5px;
+ right: 300px;
+
+}
+
+.Right-sidebar-Search {
+ border: 1px solid rgba(128, 128, 128, 0.397);
+ border-radius: 24px;
+ background-color: black;
+ width: 320px;
+ padding: 12px;
+ color: grey;
+ font-size: 16px;
+
+}
+
+.search-icon {
+      position: absolute;
+      color: rgba(128, 128, 128, 0.397);
+      display: flex;
+      align-items: center;
+
+}
+
+.Right-sidebar-Search {
+    margin-left: -15px;
+    width: 300px;
+    padding-left: 40px;
+    border: 1px solid rgba(128, 128, 128, 0.397);
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    transition: border-color 0s;
+    color: grey;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+.Right-sidebar-Search:focus {
+        border-color: rgb(29, 155, 240);
+        outline: none;
+}
+
+.Right-sidebar-premium {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 80px;
+    right: 300px;
+    width: 350px;
+    height: 140px;
+    border: 1px solid rgba(128, 128, 128, 0.397);
+    border-radius: 16px;
+    transition: border-color 0s;
+    color: white;
+}
+
+.Premium-container {
+    margin: 1px;
+
+     
+}
+
+.Premium-Header {
+    font-family: Helvetica;
+    margin-left: 15px;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.Premium-body {
+    font-family: arial;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left: 15px;
+    width: 300px;
+
+}
+
+.Premium {
+    margin-top: 15px;
+    margin-left: 18px;
+    
+}
+
+.Subscribe {
+    font-family: arial;
+    border: none;
+    border-radius: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    background-color: rgba(29, 155, 240);
+    padding: 8px 18px 8px 18px;
+    transition: background-color 0.15s;
+    cursor: pointer;
+
+}
+
+.Subscribe:hover {
+    background-color: rgba(29, 156, 240, 0.849);
+
+}
+
+/* what's happening container */
+
+.Right-sidebar-Whatshappening {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 240px;
+    right: 300px;
+    width: 350px;
+    height: 520px;
+    border: 1px solid rgba(128, 128, 128, 0.397);
+    border-radius: 16px;
+}
+
+.Right-sidebar-heading {
+    margin-bottom: 10px;
+}
+
+.Whats-happening-header {
+    font-family: Helvetica;
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-bottom: 0px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.Live-feed {
+    margin-top: 0px;
+    display: flex;
+    flex-direction: row;
+    transition: background-color 0.15s;
+   }
+
+.Live-feed:hover {
+    background-color: rgba(255, 255, 255, 0.151);
+}
+
+.Art-img {
+    margin-top: 25px;
+    margin-left: 15px;
+    object-fit: cover;
+    border-radius: 14px;
+    width: 80px;
+    height: 80px;
+}
+
+.Art-title {
+    height: 20px;
+    font-family: Helvetica;
+    font-weight: bold;
+    color: white;
+    margin-top: 25px;
+    margin-left: 15px;
+}
+
+.Live-status {
+    color: grey;
+    margin-top: 5px;
+    margin-left: 15px;
+    font-size: 13px;
+}
+
+.Art-content-container {
+    flex-direction: column;
+    width: 160px;
+
+}
+
+.Trending-tabs {
+    padding-left: 15px;
+    padding-right: 10px;
+    padding-top: 14px;
+    padding-bottom: 10px;
+    cursor: pointer;
+    transition: background-color 0.15s;
+    
+    
+}
+
+.Trending-tabs:hover {
+    background-color: rgba(255, 255, 255, 0.151);
+    
+    
+}
+
+.trending-container {
+    display: flex;
+    justify-content: space-between;
+  
+
+}
+
+.Trending, .Trending-post, .Trending-Name {
+    color: grey;
+    margin-top: 3px;
+    font-family: arial;
+
+}
+
+.Trending-Name {
+    margin-top: -16px;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.Trending, .Trending-post {
+    font-size: 13px;
+}
+
+.more-button {
+    background: transparent;
+    border: none;
+    padding: 8px;
+    border-radius: 100%;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .more-button:hover {
+    background-color: rgba(29, 156, 240, 0.24);
+  }
+  
+  .more-button:hover svg {
+    transform: scale(1.1);
+    fill: #1da1f2;
+  }
+  
+  .more-button svg {
+    width: 20px;
+    height: 20px;;
+    fill: #536471;
+    transition: all 0.2s ease;
+  }
+
+  .Right-Show-more {
+    color: #2ca7f3e8;
+    padding-bottom: 9px;
+    font-family: arial;
+    font-size: 15px;
+  }
+
+  .show-more-container {
+    padding-left: 15px;
+    padding-right: 10px;
+    padding-top: 14px;
+    padding-bottom: 10px;
+    cursor: pointer;
+    transition: background-color 0.15s;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  .show-more-container:hover {
+    background-color: rgba(255, 255, 255, 0.151);
+    }
+  
+/* who to follow container */
+
+.spacing {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 1;
+}
+
+.Who-to-follow-container {
+    margin-top: 25px;
+    border: 1px solid rgba(128, 128, 128, 0.397);
+    width: 350px;
+    height: 250px;
+    margin-bottom: 10px;
+}
+
+.Who-to-follow-Header {
+    color: white;
+    font-family: Helvetica;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.who-to-follow-pfp {
+    width: 45px;
+    height: 45px;
+
+}
+
+.Follower-pfp-container {
+    border: 1px solid white;
+    width: 45px;
+    height: 45px;
+}
+
+.Followers-Name-container {
+    display: flex;
+    margin-left: 10px;
+}
+
+.Follower-tabs {
+    display: flex;
+    padding-left: 15px;
+    padding-right: 10px;
+    padding-top: 14px;
+    padding-bottom: 10px;
+    cursor: pointer;
+    transition: background-color 0.15s;
+
+    
+    
+}
+
+.Follower-tabs:hover {
+    background-color: rgba(255, 255, 255, 0.151);
+    
+}
+
+.follower-name {
+    color: white;
+    font-family: Helvetica;
+    font-size: 15px;
+    font-weight: bold;
+    width: 180px;
+}
+
+.Followers-Name-container {
+    flex-direction: column;
+    width: 300px;
+
+}
+
+.follower-handle {
+    color: grey;
+    font-family: Helvetica;
+    font-size: 14px;
+}
+
+.follow-button {
+    border: none;
+    margin-left: 0px;
+    border-radius: 28px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 15px;
+    background-color: rgb(255, 255, 255);
+    padding-left: 16px;
+    padding-right: 16px;
+    transition: background-color;
+    cursor: pointer;
+}
+
+.follow-button:hover {
+    background-color: rgba(255, 255, 255, 0.842);
+}
